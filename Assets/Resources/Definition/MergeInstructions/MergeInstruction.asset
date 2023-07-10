@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b7959fdb854726b86569bbf34e8e8f, type: 3}
+  m_Name: MergeInstruction
+  m_EditorClassIdentifier: 
+  _instructionId: Tree instruction
+  _stages:
+  - _id: Stick
+    _mergeItem: {fileID: 486504182247502997, guid: 0b591ce8e3acf964ba87cc2505cf2386, type: 3}
+  - _id: Branch
+    _mergeItem: {fileID: 3926954603377591843, guid: 90341d078e95cdd4b9f60b51387c4af9, type: 3}
+  - _id: Log
+    _mergeItem: {fileID: 4774306842541997002, guid: 32ae1893dfbbef94e95e47c86c0663a7, type: 3}
